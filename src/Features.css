@@ -1,0 +1,12 @@
+#box.light{
+  border: 1px solid black;
+  width: 600px;
+  height: 250px;
+}
+
+#box.dark {
+  border: 1px solid black;
+  width: 600px;
+  height: 250px;
+  background-color: black;
+}

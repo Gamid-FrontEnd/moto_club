@@ -1,0 +1,99 @@
+.sect-1 {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 200px;
+  box-shadow: 2px 2px 4px #888;
+  border-radius: 10px;
+}
+
+.column-1 {
+  padding: 10px;
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+  overflow-x: hidden;
+  max-height: 250px;
+  min-height: 200px;
+}
+
+.column-1::-webkit-scrollbar {
+    height: 10px;
+    width: 3px;
+    background: rgba(0, 0, 0, 0);
+}
+
+.column-1::-webkit-scrollbar-thumb {
+    background: #616161;
+    -webkit-border-radius: 1ex;
+    -webkit-box-shadow: 0px 0 0 rgba(0, 0, 0, 0);
+}
+
+.column-1::-webkit-scrollbar-corner {
+    background: rgba(0, 0, 0, 0);
+}
+
+.column-2 {
+  position: relative;
+  padding: 10px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 200px;
+}
+
+.textarea1 {
+  resize: none;
+  overflow: hidden;
+}
+
+.subm {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.commentEntry {
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.btnPost {
+  margin-right: 10px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #b9deed, #efefef);
+}
+
+.count > span {
+  color: skyblue;
+}
+
+.ulcomment {
+  position: relative;
+  height: 90px;
+  -webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	-webkit-box-shadow: 2px 2px 4px #888;
+	-moz-box-shadow: 2px 2px 4px #888;
+	box-shadow: 2px 2px 4px #888;
+  margin-bottom: 30px;
+}
+
+.ulcomment li {
+  list-style: none;
+}
+
+.name {
+  position: absolute;
+  top: 5px;
+  left: 20px;
+}
+
+.text {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  width: 500px;
+  word-wrap: break-word;
+}
